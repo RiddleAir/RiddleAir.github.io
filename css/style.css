@@ -5,6 +5,7 @@
 
 .navbar-default .navbar-nav>li>a {
     color: white;
+    font-family: Heiti SC;
 }
 
 .navbar-default .navbar-brand {
@@ -29,6 +30,7 @@
     position: absolute;
     top: 50%;
     text-align: center;
+    font-family: Heiti SC;
     left: 50%;
 }
 
@@ -53,6 +55,7 @@
     background-color: #1D58B8;
     color: white;
     border-color: #1D58B8;
+    font-family: Heiti SC;
 }
 
 
@@ -102,8 +105,10 @@
 
 p {
     margin: -6px 0 -6px;
+    font-family: Heiti SC;
 }
 
 h4 {
     text-align: center;
+    font-family: Heiti SC;
 }
