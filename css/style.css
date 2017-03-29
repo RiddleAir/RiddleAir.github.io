@@ -81,7 +81,7 @@
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
 }
 
-.container .jumbotron {
+.container-fluid .jumbotron {
     border-radius: 0px;
 }
 
