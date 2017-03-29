@@ -17,6 +17,10 @@
 
 #TagLine {
     font-size: 30px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
 }
 
 #MainImage {
