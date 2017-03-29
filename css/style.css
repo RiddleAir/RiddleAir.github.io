@@ -15,6 +15,10 @@
     margin-right: 0px;
 }
 
+#TagLine {
+    font-size: 30px;
+}
+
 #MainImage {
     background: url(https://github.com/starkc1/Starkc1.github.io/blob/master/RiddleAirlines/images/MainBackground.png?raw=true) 0% fixed;
     background-attachment: fixed;
