@@ -72,6 +72,15 @@
   box-shadow: 0 4px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
 }
 
+.jumbotron {
+    margin-top: 20px;
+    background-color: #25a0da;
+    padding-top: 4px;
+    padding-bottom: 14px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
+}
+
 p {
     margin: -6px 0 -6px;
     font-family: Heiti SC;
