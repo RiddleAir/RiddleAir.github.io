@@ -31,10 +31,11 @@
 #TagLine {
     font-size: 30px;
     position: absolute;
-    top: 50%;
+    top: 43%;
     text-align: center;
     font-family: Heiti SC;
-    left: 40%;
+    left: 43%;
+    right: 43%;
 }
 
 #MainImage {
