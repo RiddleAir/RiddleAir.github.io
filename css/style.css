@@ -96,4 +96,17 @@ p {
 h4 {
     text-align: center;
     font-family: Heiti SC;
+    font-size: 23px;
+    color: #ffe700;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+th {
+    font-size: 18px;
+    font-family: Heiti SC;
+    font-weight: normal;
 }
