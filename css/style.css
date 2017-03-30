@@ -29,13 +29,15 @@
 }
 
 #TagLine {
-    font-size: 30px;
+    font-size: 35px;
     position: absolute;
     top: 43%;
     text-align: center;
     font-family: Heiti SC;
-    left: 35%;
-    right: 35%;
+    left: 32%;
+    right: 32%;
+    color: white;
+    background: #1D58B8;
 }
 
 #MainImage {
