@@ -16,6 +16,10 @@
     cursor: pointer;
 }
 
+.navbar-default .navbar-collapse {
+    border-color: #1D58B8;
+}
+
 .navbar-right {
     margin-right: 0px;
 }
