@@ -111,3 +111,14 @@ th {
     font-family: Heiti SC;
     font-weight: normal;
 }
+
+.form-inline .form-group {
+    margin-right: 25px;
+}
+
+.form-control {
+    color: #1D58B8;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
+}
