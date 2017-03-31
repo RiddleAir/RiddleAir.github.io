@@ -139,3 +139,7 @@ label {
     margin-bottom: 10px;
 }
 
+.btn:hover {
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
+}
+
