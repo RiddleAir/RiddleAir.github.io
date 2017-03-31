@@ -116,6 +116,7 @@ th {
 
 .form-inline .form-group {
     margin-right: 25px;
+    width: 150px;
 }
 
 .form-control {
@@ -124,3 +125,17 @@ th {
     border: 0px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
 }
+
+label {
+    color: #ffe700;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 0px;
+    border: 0px;
+    color: #1D58B8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
