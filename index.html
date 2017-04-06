@@ -40,7 +40,7 @@
         </p>
     </section>
 
-    <div class="titleofsliders1">
+    <div class="bar">
     </div>
 
     <section id="booking">
@@ -82,6 +82,9 @@
         </div>
     </section>
 
+    <div class="bar">
+    </div>
+
     <section id="about">
         <div class="container-fluid">
             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8">
@@ -92,11 +95,40 @@
         </div>
     </section>
 
+    <div class="bar">
+    </div>
+
     <section id="who">
         <div class="container-fluid">
-            
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8">
+                <div class="jumbtron">
+                    <h4>CEO: Michael</h4>
+                    <h4>President COO: Chris</h4>
+                    <hr>
+                    <h4>VP Of Operations: Marc</h4>
+                    <a class="btn" ng-click="showOps()">More Info</a>
+                    <div ng-show="Ops">
+                        <p>Operations Center-Manager: AJ</p>
+                        <p>Station Manager MCO: Justin</p>
+                        <p>Station Manager HNL: Sean</p>
+                        <p>Maintenance Manager: Mike</p>
+                        <p>System Wide Cheif Pilot: Charles</p>
+                        <p>Quality Assurance: Leo</p>
+                    </div>          
+                </div>
+            </div>
         </div>
     </section>
+
+    <script>
+        var app = anguler.module('MyApp' [])
+            app.controller('MyController', function($scope) {
+                $scope.Ops = false;
+                $scope.showOps = function() {
+                    $scope.Ops = $scope.Ops ? false : true;
+                }
+            });
+    </script>
 
 </body>
 
