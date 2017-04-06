@@ -109,15 +109,21 @@
                     <h5>CEO: Michael</h5>
                     <h5>President COO: Chris</h5>
                     </br>
-                    <h5>VP Of Operations: Marc    <a class="btn-chevron"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></h5>
-                    
+                    <h5>VP Of Operations: Marc    <a class="btn-chevron" id="showOPS"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></h5>
+                    <div id="OPS">
+                        <p>Operations Center-Manager: AJ</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <script>
-       
+       $document.ready(function() {
+            $("#showOPS").click(function() {
+                $("#OPS").show();
+            });
+       });
     </script>
 
 </body>
