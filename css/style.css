@@ -159,3 +159,31 @@ label {
 .fa {
     color: #ffe700;
 }
+
+.card {
+    border: 0;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.card-block {
+    flex: 1 1 auto;
+    padding: 20px;
+}
+
+.card-header {
+    background-color: #1D58B8;
+    color: #ffe700;
+    font-size: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12); 
+    padding: 20px 20px;
+}
+
+.card-text {
+    color: #1D58B8;
+    font-size: 16px;
+}
