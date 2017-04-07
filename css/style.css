@@ -81,6 +81,8 @@
 }
 
 .jumbotron {
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 20px;
     background-color: #1D58B8;
     padding-top: 4px;
