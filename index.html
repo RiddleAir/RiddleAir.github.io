@@ -58,17 +58,12 @@
                         </form>
                     </div>
                     <div class="card-block">
-                        <div class="dropdown">
-                            <div class="btn-group">
-                                <button class="btn btn-primary-file dropdown-toggle" type="button" value="File Selection" data-toggle="dropdown" id="fileSelection"><span class="fileChoice">File Selection </span><span class="caret"></span></button>
-                                <div class="dropdown-menu" id="file">
-                                    <li><a class="dropdown-item" ng-click="passFileName('File1')">File 1</a></li>
-                                    </br>
-                                    <li><a class="dropdown-item" ng-click="passFileName('File2')">File 2</a></li>
-                                </div>
-                            </div>
-                        </div>
                         <form class="form-inline">
+                            <div class="form-group">
+                                <label>Departure</label>
+                                </br>
+                                <input class="form-control" id="departure">
+                            </div>
                             <div class="form-group">
                                 <label>Arrival</label>
                                 </br>
@@ -91,29 +86,47 @@
         </div>
     </section>
 
-    <script>
-        $(function () {
-            $("#file li a").click(function () {
-                $("#fileSelection .fileChoice").text('Selected File: ' + $(this).text() + " ");
-            });
-        });
-
-        $(function () {
-            $("#translation li a").click(function () {
-                $("#langSelection .langChoice").text('Selected Language: ' + $(this).text() + " ");
-            });
-        });
-    </script>
-
     <div class="bar" id="about">
         About Riddle Air
     </div>
 
     <section>
         <div class="container">
-
+        
         </div>
     </section>
+    <!--
+    <div class="bar" id="who">
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="card">
+                    <h3 class="card-header">Operations Department</h3>
+                    <div class="card-block">
+                        <p class="card-text">
+                            <b>VP Of Operations: Marc</b>
+                            </br>
+                            </br>
+                            <b>Operations Center-Manager</b>: AJ
+                            </br>
+                            <b>Station Manager MCO</b>: Justin
+                            </br>
+                            <b>Station Manager HNL</b>: Sean
+                            </br>
+                            <b>Maintenance Manager</b>: Mike
+                            </br>
+                            <b>System Wide Chief Pilot</b>: Charles
+                            </br>
+                            <b>Quality Assurance</b>: Leo
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
 
 </body>
 
