@@ -63,7 +63,7 @@
                                 <label>Departure</label>
                                 </br>
                                 <div class="dropdown">
-                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="Depart">Choose Airport<span class="caret"></span></button>
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="Depart"><span class="Departure">Choose Airport</span><span class="caret"></span></button>
                                     <ul class="dropdown-menu" id="DepartSelection">
                                         <li><a>Orlando International (MCO)</a></li>
                                         <li><a>Honolulu International (HNL)</a></li>
@@ -95,7 +95,7 @@
     <script>
         $(function () {
             $("#Depart li a").click(function () {
-                $("#DepartSelection .caret").text($(this).text());
+                $("#DepartSelection .Departure").text($(this).text());
             });
         });
         $(function() {
