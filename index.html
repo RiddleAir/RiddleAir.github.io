@@ -63,8 +63,8 @@
                                 <label>Departure</label>
                                 </br>
                                 <div class="dropdown">
-                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Airport<span class="caret"></span></button>
-                                    <ul class="dropdown-menu">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="Depart">Choose Airport<span class="caret"></span></button>
+                                    <ul class="dropdown-menu" id="DepartSelection">
                                         <li><a>Orlando International (MCO)</a></li>
                                         <li><a>Honolulu International (HNL)</a></li>
                                     </ul>
@@ -91,6 +91,19 @@
             </div>
         </div>
     </section>
+
+    <script>
+        $(function () {
+            $("#Depart li a").click(function () {
+                $("#DepartSelection .fileChoice").text($(this).text());
+            });
+        });
+        $(function() {
+            $("#translation li a").click(function() {
+                $("#langSelection .langChoice").text('Selected Language: ' + $(this).text() + " ");
+            });
+        });
+    </script>
 
     <div class="bar" id="about">
         About Riddle Air
