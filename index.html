@@ -63,11 +63,14 @@
                                 <label>Departure</label>
                                 </br>
                                 <div class="dropdown">
-                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="Depart"><span class="Departure">Choose Airport</span><span class="caret"></span></button>
-                                    <ul class="dropdown-menu" id="DepartSelection">
-                                        <li><a class="dropdown-item">Orlando International (MCO)</a></li>
-                                        <li><a class="dropdown-item">Honolulu International (HNL)</a></li>
-                                    </ul>
+                                    <div class="btn-group">
+                                        <button class="btn btn-primary-file dropdown-toggle" type="button" value="File Selection" data-toggle="dropdown" id="fileSelection"><span class="fileChoice">File Selection </span><span class="caret"></span></button>
+                                        <div class="dropdown-menu" id="file">
+                                            <li><a class="dropdown-item" ng-click="passFileName('File1')">File 1</a></li>
+                                            </br>
+                                            <li><a class="dropdown-item" ng-click="passFileName('File2')">File 2</a></li>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -94,12 +97,13 @@
 
     <script>
         $(function () {
-            $("#DepartSelection li a").click(function () {
-                $("#Depart .Departure").text(" " + $(this).text() + " ");
+            $("#file li a").click(function () {
+                $("#fileSelection .fileChoice").text('Selected File: ' + $(this).text() + " ");
             });
         });
-        $(function() {
-            $("#translation li a").click(function() {
+
+        $(function () {
+            $("#translation li a").click(function () {
                 $("#langSelection .langChoice").text('Selected Language: ' + $(this).text() + " ");
             });
         });
@@ -114,7 +118,7 @@
 
         </div>
     </section>
-    
+
 </body>
 
 <!-- Bootstrap core JavaScript
