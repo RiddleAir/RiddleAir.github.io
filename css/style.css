@@ -160,9 +160,9 @@ label {
     border: 0px;
     color: #1D58B8;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 200px
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px
 }
 
 .btn:hover {
