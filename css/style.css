@@ -154,6 +154,17 @@ label {
     margin-bottom: 10px;
 }
 
+.btn-book {
+    background-color: white;
+    border-radius: 0px;
+    border: 0px;
+    color: #1D58B8;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 200px
+}
+
 .btn:hover {
     box-shadow: 0 12px 15px 0 rgba(0,0,0,.16), 0 11px 15px 0 rgba(0,0,0,.12);
 }
