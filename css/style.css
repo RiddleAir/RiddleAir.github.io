@@ -57,6 +57,11 @@ body {
     padding: 0px;
 }
 
+.booking {
+    background-color: #1D58B8;
+    color: #ffe700;
+}
+
 .panel {
     position: absolute;
     width: 400px;
