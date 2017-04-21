@@ -13,7 +13,31 @@
 </head>+-
 
 <body data-spy="scroll" data-target=".navbar-fixed-top">
+    <!--
     <nav class="nav navbar-default navbar-fixed-top">
+        <div class="container-fluid-custom">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" aria-expanded="false" type="button" data-toggle="collapse" data-target="#custom-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand">Riddle Air</a>
+            </div>
+            <div class="collapse navbar-collapse" id="custom-collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="">Home</a></li>
+                    <li><a class="page-scroll" href="#book">Book A Flight</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href="/About.html">Who We Are</a></li>
+                    <li><a href="/Login.html">Passenger Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+
+    <nav class="nav navbar-default navbar-fixed-top" id="top">
         <div class="container-fluid-custom">
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" aria-expanded="false" type="button" data-toggle="collapse" data-target="#custom-collapse">
@@ -47,45 +71,45 @@
         Book A Flight
     </div>
 
-    <section >
+    <section>
         <div class="container">
-                <div class="card">
-                    <div class="card-header">
-                        <form>
-                            <a class="btn">One-Way</a>
-                            <a class="btn">Round Trip</a>
-                        </form>
-                    </div>
-                    <div class="card-block">
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <label>Departure</label>
-                                </br>
-                                <input class="form-control" id="departure">
-                            </div>
-                            <div class="form-group">
-                                <label>Arrival</label>
-                                </br>
-                                <input class="form-control" id="arrival">
-                            </div>
-                            <div class="form-group">
-                                <label>Departure Date</label>
-                                </br>
-                                <input type="date" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Return Date</label>
-                                </br>
-                                <input type="date" class="form-control" disabled>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="card-header">
-                        <form>
-                            <a class="btn" href="/Booking.html">Book Your Flight</a>
-                        </form>
-                    </div>
+            <div class="card">
+                <div class="card-header">
+                    <form>
+                        <a class="btn">One-Way</a>
+                        <a class="btn">Round Trip</a>
+                    </form>
                 </div>
+                <div class="card-block">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label>Departure</label>
+                            </br>
+                            <input class="form-control" id="departure">
+                        </div>
+                        <div class="form-group">
+                            <label>Arrival</label>
+                            </br>
+                            <input class="form-control" id="arrival">
+                        </div>
+                        <div class="form-group">
+                            <label>Departure Date</label>
+                            </br>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Return Date</label>
+                            </br>
+                            <input type="date" class="form-control" disabled>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-header">
+                    <form>
+                        <a class="btn" href="/Booking.html">Book Your Flight</a>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 </body>
