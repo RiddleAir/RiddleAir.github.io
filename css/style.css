@@ -57,15 +57,7 @@ body {
     padding: 0px;
 }
 
-.booking {
-    background-color: #1D58B8;
-    color: #ffe700;
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-}
-
-.information {
+.booking .information .discount{
     background-color: #1D58B8;
     color: #ffe700;
     text-align: center;
