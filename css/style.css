@@ -219,6 +219,7 @@ footer.page-footer{
 
 .footer-title {
     text-transform: uppercase;
+    text-align: left;
 }
 
 .footer-copyright {
