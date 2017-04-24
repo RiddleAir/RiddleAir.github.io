@@ -209,3 +209,21 @@ label {
 #about {
     margin-top: 250px;
 }
+
+.page-footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    color: white;
+    background-color: #1D58B8!important;
+}
+
+.footer-title {
+    text-transform: uppercase;
+}
+
+.footer-copyright {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
