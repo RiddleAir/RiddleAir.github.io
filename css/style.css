@@ -57,7 +57,7 @@ body {
     padding: 0px;
 }
 
-.booking, .information, .discount, .credit, .frequent, .media, .food{
+.booking, .information, .discount, .credit, .frequent, .media, .food, .seating{
     background-color: #1D58B8;
     color: #ffe700;
     text-align: center;
