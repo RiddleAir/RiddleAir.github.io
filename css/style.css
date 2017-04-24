@@ -220,6 +220,7 @@ footer.page-footer{
 .footer-title {
     text-transform: uppercase;
     text-align: left;
+    color: white;
 }
 
 .footer-copyright {
@@ -235,4 +236,8 @@ ul {
 
 ul li {
     list-style-type: none;
+}
+
+.footer-a {
+    color: white;
 }
