@@ -241,7 +241,13 @@ ul li {
     list-style-type: none;
 }
 
+
+
 .footer-a {
-    
+    cursor: pointer;
     color: white;
+}
+
+.footer-a:hover {
+    color: #ffe700;
 }
