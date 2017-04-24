@@ -220,13 +220,13 @@ footer.page-footer{
 .footer-title {
     text-transform: uppercase;
     text-align: left;
-    color: white;
+    color: #ffe700;
 }
 
 .footer-copyright {
     height: 50px;
     line-height: 50px;
-    color: #ffe700;
+    color: white;
     text-align: center;
 }
 
